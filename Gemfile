@@ -52,3 +52,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# User management
+gem 'devise'
+# Bootstrap
+gem 'bootstrap', '~> 4.0.0'  
+# Font Awesome Icons  
+gem "font-awesome-rails"  
+   
+# In 'group :development do' add  
+gem 'rails-erd'
